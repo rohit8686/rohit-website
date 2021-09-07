@@ -1,15 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-body{
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+/* body{
 font-family: 'Montserrat', sans-serif;
+} */
+body{
+    font-family: 'Lato', sans-serif;
+    max-width: 1000px;
+    margin: auto;
 }
 
 :root{
-    --primary-color:#3B82F6;
+    --primary-color:#FF6363;
     --secondary-color:brown;
 }
+.border{
+ border: 2px solid black;
+}
+
+.font-size{
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
 .background{
-    background-color:#DDD6FE;
+    background-color: var(--primary-color);
     border-radius: 10px;
     width: fit-content;
     padding: 10px;
@@ -20,7 +34,7 @@ font-family: 'Montserrat', sans-serif;
     padding-right: 1rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;   
 }
 .link{
@@ -32,6 +46,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: var(--primary-color);
     border-radius: 1rem;
     padding: 0.5rem 1.5rem;
+    
 }
 .secondary-link{
     color: var(--primary-color);
@@ -49,12 +64,15 @@ list-style: none;
     display: inline;
     padding: 0rem 1rem;
 }
+.text-decoration{
+    text-decoration: underline;
+}
 .navigation{
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 3rem;
-    border-top-right-radius: 3rem;
-    padding: 0.5rem;
+    /* border-top-right-radius: 3rem; */
+    padding: 0.2rem;
     
 }
 .navigation .link{
@@ -69,13 +87,13 @@ list-style: none;
     width: 600px;
     height: 300px;
     display: block;
-    margin: auto;
+    margin: auto; 
 }
 .center{
     text-align: center;
 }
 .link-active{
-    font-weight: bold;
+    text-decoration: underline;
     
 }
 .header-color{
@@ -91,23 +109,30 @@ section h3{
     text-align: center;
     padding: 1rem;
 }
+section a:hover{
+    font-size: 1.1rem;
+}
+
 .footer{
     background-color: var(--primary-color);
     padding: 1rem;
     color: white;
     text-align: center;
     border-top-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 3rem;
     margin: 0rem 1rem ;
 }
 footer .link{
     color: white;
 }
 .padding-bottom{
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 .margin-bottom{
     margin-bottom: 1rem;
+}
+.large-margin-bottom{
+    margin-bottom: 6rem;
 }
 
 
