@@ -1,8 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
-/* body{
-font-family: 'Montserrat', sans-serif;
-} */
+
 body{
     font-family: 'Lato', sans-serif;
     max-width: 1000px;
@@ -71,14 +68,11 @@ list-style: none;
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 3rem;
-    /* border-top-right-radius: 3rem; */
     padding: 0.2rem;
     
 }
 .navigation .link{
     color: white;
-    /* text-align: right; */
-    /* nav-right: auto; */
 }
 .navbar-items{
     text-align: right;
