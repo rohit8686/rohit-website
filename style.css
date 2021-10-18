@@ -5,13 +5,18 @@ body{
     max-width: 1000px;
     margin: auto;
 }
-
+section{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+section:hover{
+    box-shadow: 0px 0px 20px 4px red, 0 6px 6px rgba(0,0,0,0.23);
+}
 :root{
     --primary-color:#FF6363;
     --secondary-color:brown;
 }
 .border{
- border: 2px solid black;
+ border: 1.8px solid black;
 }
 
 .font-size{
