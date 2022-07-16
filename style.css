@@ -6,10 +6,10 @@ body{
     margin: auto;
 }
 section{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.2)
 }
 section:hover{
-    box-shadow: 0px 0px 20px 4px red, 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 5px 2px red;
 }
 :root{
     --primary-color:#FF6363;
@@ -108,7 +108,7 @@ list-style: none;
 .off-white-section{
     background-color: #F3F4F6;
     padding-bottom: 1.2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     
 }
 section h3{
